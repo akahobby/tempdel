@@ -17,3 +17,7 @@ Polished Windows cleanup script that deletes temporary files from:
    ```bat
    clean_temp_files.bat
    ```
+
+
+## Troubleshooting
+- If you still see text like `96m` or `1m`, you are running an older script copy. Re-download and run the latest `clean_temp_files.bat`.

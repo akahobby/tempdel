@@ -1,6 +1,9 @@
 @echo off
 setlocal EnableExtensions EnableDelayedExpansion
 
+rem Force legacy CMD color mode (no ANSI escape output).
+for %%V in (ESC RST BOLD DIM RED GRN YLW BLU CYN WHT) do set "%%V="
+
 call :EnsureElevated
 if errorlevel 1 exit /b 0
 
@@ -38,7 +41,7 @@ echo ======================================================================
 echo                     TEMPORARY FILE CLEANUP TOOL
 echo ======================================================================
 color 07
-echo Looks best in Command Prompt or Windows Terminal.
+echo UI mode: native CMD colors (ANSI disabled).
 echo.
 exit /b 0
 
