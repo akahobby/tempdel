@@ -6,7 +6,7 @@ Polished Windows cleanup script that deletes temporary files from:
 - `C:\Windows\Prefetch`
 
 ## Features
-- Colorized terminal UI with clear sections and status labels
+- Native Command Prompt colorized UI (no ANSI required) with clear sections and status labels
 - Per-location cleanup status (done/skip/warnings)
 - Auto-elevation prompt (UAC) when not launched as Administrator
 - End-of-run summary with totals for deleted files/folders
